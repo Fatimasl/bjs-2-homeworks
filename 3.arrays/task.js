@@ -1,3 +1,5 @@
+"use strict"
+
 function compareArrays(arr1, arr2) {
 
 	const eq1_2 = arr1.every((item, i) => arr1[i] === arr2[i]);
